@@ -10,7 +10,7 @@ docker compose up -d
 Once the container is running, execute the following to enter the postgres CLI:
 
 ```bash
-docker exec -it db -U root -d db
+docker exec -it <container-name> -U <postgres-username> -d <database-name>
 ```
 
 You can then copy and paste the SQL commands in the terminal and check if everything worked as intented. 
